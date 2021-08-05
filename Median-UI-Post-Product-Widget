@@ -1,0 +1,67 @@
+<div class='postInner'>
+<div class='postEntry' id='Product-ID'>
+<div class='postBody' id='postBody'><div class='separator'>
+  <img alt="Your Product Name" src="Your Product Image URL"/>
+</div>
+
+<!--[ Price to show in homepage ]-->
+<div class='proPrice' data-text='Price'>0 $</div>
+<a name='more'></a>
+
+<div class='proInfo'>
+  <div class='proInfoL'><small>Size</small><span>Small, Medium, Big, Large, Extra Large</span></div>
+  <div class='proInfoR'><small>Colors</small><span> Blue, Red, Green, Yellow</span></div>
+</div>
+<div class='proInfo one'><small>Your Text</small><span>Your Text</span></div>
+
+<div class='proMarket'>
+  <small>Our Supported "<b>Payment Methods</b>" Are:</small>
+  
+  <!--[ Change attribute href='#' to add url ]-->
+  <a title='Payment Method 1' href='Your Redirect URL' target='_blank' rel='noopener'>
+    <img class="lazy" data-src="Your Image URL" src="#">
+  </a>
+  <a title='Payment Method 2' href='Your Redirect URL' target='_blank' rel='noopener'>
+    <img class="lazy" data-src="Your Image URL" src="#">
+  </a>
+  <a title='Payment Method 3' href='Your Redirect URL' target='_blank' rel='noopener'>
+    <img class="lazy" data-src="Your Image URL" src="#">
+  </a>
+</div>
+
+<!--[ Active function ]-->
+<input class='allTabs hidden' id='forall-tabs1' type='radio' name='postTabs' checked>
+<input class='allTabs hidden' id='forall-tabs2' type='radio' name='postTabs'>
+<input class='allTabs hidden' id='forall-tabs3' type='radio' name='postTabs'>
+<div class='postTabs'>
+  <div class='tabsHead'>
+    <!--[ Change atribute data-text='...' to replace tabs title ]-->
+    <label for='forall-tabs1' data-text='Your Tab 1'></label>
+    <label for='forall-tabs2' data-text='Your Tab 2'></label>
+    <label for='forall-tabs3' data-text='Your Tab 3'></label>
+  </div>
+
+  <div class='tabsContent'>
+    <!--[ Tabs content ]-->
+    <div class='tabsContent-1'>
+
+      <p> Your Texts 1.</p>
+
+    </div>
+
+    <!--[ Tabs content ]-->
+    <div class='tabsContent-2'>
+
+      <p> Your Texts 2 </p>
+      
+</div>
+    <!--[ Tabs content ]-->
+    <div class='tabsContent-3'>
+
+           <p> Your Texts 3 </p>
+
+    </div>
+    </div>
+  </div>
+</div></div>
+</div>
